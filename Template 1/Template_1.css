@@ -1,0 +1,262 @@
+* { margin: 0; 
+    padding: 0;
+}
+
+section{
+    width: 1240px;
+    
+}
+nav{
+    background-color: #333333;
+    
+}
+h6 a{
+    text-decoration: none;
+    color: #FF9900;
+    text-align: right;
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-top:  8px;
+}
+.header{
+    width: 960px;
+    display: flex;
+    margin: 0px auto;
+}
+
+
+#container{
+    margin: 8px auto 0px;
+    
+}
+#container_2{
+    width: 960px;
+    margin: 0px auto;
+}
+#container_3{
+    width: 960px;
+    margin: 0px auto;
+
+}
+#container_4{
+    width: 960px;
+    margin: 0px auto;
+
+}
+#container_5{
+    width: 960px;
+    margin: 0px auto;
+
+}
+
+
+.box_1{
+    width: 460px;
+    color: #C0BAB6;
+    margin: 22px 0px;
+    
+}
+.box_2{
+    background-color: #232323;
+    display: flex;
+    font-size: 13px;
+    line-height: 16px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 400;
+    padding: 20px 0px 20px 22px;
+    margin: 28px 0px;
+    
+}
+.box_3{
+    width: 960px;
+    height: 360px;
+    background-color: #333333;
+    margin: 30px auto 53px;
+
+}
+.mainbox_1{
+    display: flex;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #dedede;
+
+}
+.mainbox_2{
+    padding-bottom: 32px;
+    border-bottom: 1px solid #dedede;
+
+}
+.mainbox_3{
+    display: flex;
+    padding-bottom: 13px;
+
+}
+.mainbox_4{
+    display: flex;
+    padding-top: 29px;
+    padding-bottom: 25px;
+
+}
+.mainbox_5{
+    width: 630px;
+
+}
+.mainbox_6{
+    width: 280px;
+    margin-left: 49px;
+}
+.mainbox_6 h5{
+    font-size: 16px;
+    line-height: 19px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #979797;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #dedede;
+    margin-bottom: 17px;
+}
+.box_4{
+    width: 225px;
+    
+}
+.box_5{
+    border: 1px solid #d6d6d6;
+    padding: 4px;
+
+}
+.box_6{
+    width: 630px;
+    display: flex;
+
+}
+.box_7{
+    border: 1px solid #d6d6d6;
+    padding: 4px;
+
+}
+.box_8{
+    width: 630px;
+    display: flex;
+
+}.box_9{
+    border: 1px solid #d6d6d6;
+    padding: 4px;
+
+}
+.margin_r{
+    padding-right: 20px;
+
+}
+.margin_r_1{
+    margin-right: 29px;
+
+}
+.margin_t{
+    padding-top: 28px;
+}
+
+.box_2 div{
+    padding-right: 26px;
+
+}
+.box_2 a{
+    text-decoration: none;
+    color: #C0BAB6;
+
+}
+.box_4 h5{
+    font-size: 11px;
+    line-height: 21px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #979797;
+    font-weight: 700;
+    padding-top: 1px;;
+
+}
+.font_1{
+    font-size: 36px;
+    line-height: 39px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 400;
+
+}
+.font_1 a{
+    text-decoration: none;
+    color: #C0BAB6;
+
+}
+.font_2{
+    font-size: 13px;
+    line-height: 16px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 400;
+
+}
+.font_3{
+    font-size: 14px;
+    line-height: 16px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: bold;
+    color: #979797;
+    padding: 10px 0px 0px 10px;
+    
+}
+.font_4{
+    font-size: 11px;
+    line-height: 16px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 400;
+
+}
+.font_5{
+    padding-top: 12px;
+    padding-bottom: 8px;;
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: 400;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #979797;
+
+}
+.font_5 a{
+    text-decoration: none;
+    color: #FF9900;
+}
+.font_6{
+    display: flex;
+    width: 280px;
+    padding-bottom: 4px;
+    border-bottom: 1px dotted #666666;
+    margin: 5px;
+}
+.font_6 a{
+    text-decoration: none;
+
+}
+.font_6 h6{
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #666666;
+    padding-top: 2px;
+
+}
+.font_6 img{
+    padding: 2px 5px 2px 11px;
+}
+
+.inline_1{
+    display: flex;
+}
+.inline_2{
+    width: 410px;
+    padding-left: 30px;
+    /* padding-top: 2px; */
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 400;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #979797;
+}
+
