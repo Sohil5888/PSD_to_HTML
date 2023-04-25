@@ -1,0 +1,642 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*------------------------------------------   UTILITY CLASS  -------------------------------------------*/
+.container{
+    width: 1050px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.jcs{
+    justify-content: space-between;
+}
+.jcsa{
+    justify-content: space-around;
+}
+.po-re{
+    position: relative;
+}
+.po-ab{
+    position: absolute;
+}
+.col-10{
+    width: 10%;
+}
+.col-25{
+    width: 25%;
+}
+.col-30{
+    width: 30%;
+}
+.col-40{
+    width: 40%;
+}
+.col-50{
+    width: 50%;
+}
+.col-60{
+    width: 60%;
+}
+.col-70{
+    width: 70%;
+}
+.col-90{
+    width: 90%;
+}
+/*------------------------------------------   SECTION ONE   --------------------------------------------*/
+.sec-one{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    background-color: #f4f9f4;
+}
+.col-10 .header-logo{
+    width: 120px;
+}
+.header-logo img{
+    width: 100%;
+    padding-left: 30px;
+}
+.navbar{
+    padding: 44px 0 0 0 ;
+}
+.nav-links .col-50{
+    background-color: #e2ede8;
+}
+.nav-links ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: 'Myriad Pro', sans-serif;
+    color: #444444;
+    background-color: #e2ede8;
+    padding-right: 66px;
+}
+.nav-links ul li{
+    list-style: none;
+}
+.navbar .nav-link-1{
+    background-color: #a7d7c5;
+    padding: 9px 20px;
+}
+/*------------------------------------------   SECTION TWO   --------------------------------------------*/
+.sec-two{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #f4f9f4;
+    padding: 30px 0 0 0;
+}
+.sec-two-img{
+    padding: 100px 0;
+    width: 315px;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+}
+.sec-two-text{
+    padding-top: 100px;
+}
+.sec-two-h1{
+    padding: 100px 0 33px 0;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: 'Myriad Pro', sans-serif;
+    color: #6c9894;
+    text-align: center;
+}
+.sec-two-p{
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 400;
+    font-family: 'Montserrat', Myriad Pro, sans-serif;
+    color: #6c9894;
+    text-align: center;
+    width: 74%;
+    margin: 0 auto;
+    padding: 0 0 25px 0;
+}
+.join-now-btn button{
+    border: none;
+    border-radius: 10px;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: 'Montserrat', Myriad Pro, sans-serif;
+    color: #fefefc;
+    padding: 3px 23px;
+    background-color: #6c9894;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
+.join-now-btn button:hover {
+    background-color: aqua;
+}
+.ab-img-1{
+    top: 17px;
+    left: 66px;
+}
+/*------------------------------------------   SECTION THREE   --------------------------------------------*/
+.sec-three{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #6c9894;
+}
+.sec-three-h1{
+    padding: 100px 0 46px 0;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: 'Myriad Pro', sans-serif;
+    color: #f4f9f4;
+    text-align: center;
+}
+.sec-three-p{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'Montserrat', Myriad Pro, sans-serif;
+    color: #f4f9f4;
+    text-align: center;
+    width: 45%;
+    margin: 0 auto;
+    padding: 0 0 25px 0;
+}
+.sec-three-h3{
+    padding: 38px 0 32px 0;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: bold;
+    font-family: 'Myriad Pro', sans-serif;
+    color: #f4f9f4;
+    text-align: center;
+}
+.sec-three-p2{
+    padding: 0 0 100px 0;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 300;
+    font-family: 'Myriad Pro', sans-serif;
+    color: #f4f9f4;
+    text-align: center;
+    width: 54%;
+    margin: 0 auto;
+}
+.sec-three-img{
+    width: 260px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+.sec-three-img img{
+    width: 100%;
+}
+.ab-img-2{
+    top: 231px;
+    left: 83px;
+}
+.ab-img-3{
+    top: 231px;
+    left: 439px;
+}
+.ab-img-4{
+    top: 231px;
+    right: 85px;
+
+}
+.ab-img-5{
+    width: 250px;
+    right: 0;
+    top: -250px;
+}
+/*------------------------------------------   SECTION FOUR   --------------------------------------------*/
+.sec-four{
+    width: 1200px;
+    margin: 0 auto;
+    background-image: url(img/bg_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding-bottom: 73px;
+}
+.sec-four-h1{
+    padding: 85px 0 45px 0;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold;
+    font-family: 'Myriad Pro', sans-serif;
+    color: #6c9894;
+    text-align: center;
+}
+.sec-four-p{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'Montserrat', Myriad Pro, sans-serif;
+    color: #6c9894;
+    text-align: center;
+    width: 45%;
+    margin: 0 auto;
+    padding: 0 0 100px 0;
+}
+.sec-four-img{
+    width: 273px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.sec-four-img img{
+    width: 100%;
+}
+.ab-img-6{
+    top: -71px;
+    left: 0;
+}
+/*------------------------------------------   SECTION FIVE   --------------------------------------------*/
+.sec-five{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #6c9894;
+}
+.sec-five-text{
+    padding: 100px 0;
+}
+.sec-five-text-t1{
+    padding: 100px 0 0;
+}
+.sec-five-h1{
+    text-align: left;
+    width: 9%;
+    padding: 85px 0 0 70px;
+    font-size: 30px;
+    line-height: 70px;
+    font-weight: bold;
+    font-family: 'Myriad Pro', sans-serif;
+    color: #f4f9f4;
+}
+.sec-five-p{
+    text-align: left;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'Montserrat', Myriad Pro, sans-serif;
+    color: #f4f9f4;
+    width: 72%;
+    padding: 0 0 45px 70px;
+}
+.read-more-btn button{
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', Myriad Pro, sans-serif;
+    color: #6c9894;
+    padding: 10px 25px;
+    background-color: #f4f9f4;
+    display: block;
+    margin: 0 0 0 70px;
+    text-decoration: none;
+    /* letter-spacing: 3px; */
+}
+.read-more-btn button:hover {
+    background-color: aqua;
+}
+.read-more-btn{
+    padding-bottom: 100px;
+}
+.sec-five .col-50 img{
+    width: 100%;
+    align-items: center;
+}
+/*------------------------------------------   SECTION SIX   --------------------------------------------*/
+.sec-six{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #f4f9f4;
+    padding-top: 90px;
+}
+.sec-six-text{
+    padding: 100px 0;
+}
+.sec-six-h1{
+    text-align: left;
+    width: 9%;
+    padding: 85px 0 0 70px;
+    font-size: 30px;
+    line-height: 70px;
+    font-weight: bold;
+    font-family: 'Myriad Pro', sans-serif;
+    color: #6c9894;
+}
+.sec-six-p{
+    text-align: left;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'Montserrat', Myriad Pro, sans-serif;
+    color: #6c9894;
+    width: 72%;
+    padding: 0 0 45px 70px;
+}
+.read-more-btn-2 button{
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', Myriad Pro, sans-serif;
+    color: #f4f9f4;
+    padding: 10px 25px;
+    background-color: #6c9894;
+    display: block;
+    margin: 0 0 0 70px;
+    text-decoration: none;
+    /* letter-spacing: 3px; */
+}
+.read-more-btn-2 button:hover {
+    background-color: aqua;
+}
+.read-more-btn{
+    padding-bottom: 100px;
+}
+.ab-img-7{
+    width: 340px;
+    top: 0;
+    right: 0;
+}
+/*------------------------------------------   SECTION SEVEN   --------------------------------------------*/
+.sec-seven {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #6c9894;
+    padding-bottom: 100px;
+}
+
+.sec-seven-h1 {
+    font-size: 40px;
+    line-height: 42px;
+    font-weight: bold;
+    font-family: 'Montserrat', Myriad Pro, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 100px 0 30px 0;
+}
+
+.sec-seven-p {
+    width: 55%;
+    margin: 0 auto;
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: 'Montserrat', Myriad Pro, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 0 0 36px 0;
+
+}
+
+.cart-bgcolour {
+    background-color: white;
+    /* border: 1px solid white; */
+    border-radius: 10px;
+    /* margin: 0 0 50px 0; */
+}
+
+.sec-seven .h5 {
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: 'Montserrat', Myriad Pro, sans-serif;
+    color: #6c9894;
+    text-align: center;
+    padding: 25px 0 15px;
+}
+
+.sec-seven .img {
+    width: 90px;
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 20px;
+}
+
+.sec-seven img {
+    width: 100%;
+
+}
+
+.sec-seven .h5-price {
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 400;
+    font-family: 'Montserrat', Myriad Pro, sans-serif;
+    color: #6c9894;
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+.sec-seven .p {
+    width: 82%;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: 400;
+    font-family: 'Montserrat', Myriad Pro, sans-serif;
+    color: #6c9894;
+    text-align: center;
+    padding: 0 0 20px 0;
+}
+
+.register-now-btn button {
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 14px;
+    color: white;
+    font-family: 'Montserrat', Myriad Pro, sans-serif;
+    padding: 10px 65px;
+    background-color: #6c9894;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.register-now-btn button:hover {
+    background-color: aqua;
+}
+/*------------------------------------------   SECTION EIGHT   --------------------------------------------*/
+.sec-eight{
+    width: 1200px;
+    margin: 0 auto;
+    background-image: url(img/bg_4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0 60px 0;
+}
+.sec-eight-img{
+    width: 263px;
+    margin: 0 auto;
+    padding: 0 0 50px 0;
+    position: relative;
+}
+.sec-eight-h1 {
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: bold;
+    font-family: 'Montserrat', Myriad Pro, sans-serif;
+    color: #6c9894;
+    text-align: center;
+    padding: 25px 0 100px 0;
+    letter-spacing: 1.0px;
+}
+
+.sec-eight-p {
+    width: 53%;
+    margin: 0 auto;
+    font-size: 30px;
+    line-height: 41px;
+    font-weight: 400;
+    font-family: 'Montserrat', Myriad Pro, sans-serif;
+    color: #6c9894;
+    text-align: center;
+    padding: 0 0 36px 0;
+
+}
+.ab-img-8{
+    top: 63px;
+    left: 431px;
+}
+/*------------------------------------------   SECTION NINE   --------------------------------------------*/
+.sec-nine{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #6c9894;
+    padding: 100px 0 70px 0 ;
+}
+.sec-nine-h1 {
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: bold;
+    font-family: 'Montserrat', Myriad Pro, sans-serif;
+    color: #f4f9f4;
+    text-align: center;
+    padding: 25px 0 100px 0;
+    letter-spacing: 1.0px;
+}
+
+.sec-nine-p {
+    width: 58%;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 41px;
+    font-weight: 400;
+    font-family: 'Montserrat', Myriad Pro, sans-serif;
+    color: #f4f9f4;
+    text-align: center;
+    padding: 0 0 36px 0;
+
+}
+.sec-nine-email{
+    padding-bottom: 100px;
+}
+.sec-nine-email .col-50{
+    margin: 0 auto;
+    
+}
+.sec-nine input{
+    width: 500px;
+    padding: 9px 0 10px 25px;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 200;
+    font-family: 'Montserrat', Myriad Pro, sans-serif;
+    color: #f4f9f4;
+    border: none;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+.subscribe-btn button {
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #6c9894;
+    font-family: 'Montserrat', Myriad Pro, sans-serif;
+    padding: 10px 30px;
+    background-color: #f4f9f4;
+    /* margin: 0 0 100px 0; */
+}
+
+.subscribe-btn button:hover {
+    background-color: aqua;
+}
+.ab-btn{
+    top: 0;
+    left: 400px;
+}
+/*------------------------------------------   FOOTER   --------------------------------------------*/
+.footer{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #f4f9f4;
+    padding: 75px 0 100px 0;
+}
+.footer .h4{
+    font-size: 25px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: 'Montserrat', Myriad Pro, sans-serif;
+    color: #6c9894;
+    text-align: left;
+    padding-bottom: 30px;
+}
+.footer .p-text{
+    width: 85%;
+    font-size: 21px;
+    line-height: 23px;
+    font-weight: 400;
+    font-family: 'Montserrat', Myriad Pro, sans-serif;
+    color: #6c9894;
+    text-align: left;
+    padding-bottom: 30px;
+}
+.footer .logo-img{
+    width: 38px;
+    padding-right: 10px;
+}
+.footer .logo-img img{
+    width: 100%;
+}
+.footer-links li a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: 'Montserrat', Myriad Pro, sans-serif;
+    color: #6c9894;
+    text-align: left;
+    padding-bottom: 15px;
+}
+.footer-links li{
+    list-style: none;
+    padding-bottom: 15px;
+}
+.footer .footer-logos-name{
+    font-size: 21px;
+    line-height: 23px;
+    font-weight: 100;
+    font-family: 'Montserrat', Myriad Pro, sans-serif;
+    color: #6c9894;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
